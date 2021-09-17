@@ -4,7 +4,7 @@
 
   **Submitted by:Movva  Sri Sai Haravali,Gourav Meenia,Siddharth,Tanya Mishra,Ambika Sharma,Yashvi Malhan**
 
-                                                            **Introduction**
+                        **Introduction**
 
 Housing prices are an important reflection of the economy. Housing price ranges are of great interest for both buyers and sellers. In this project, house prices will be predicted 
 given explanatory variables that cover many aspects of residential houses. The goal of this project is to visualize the given numerical data using EDA techniques with python.
@@ -17,13 +17,15 @@ given explanatory variables that cover many aspects of residential houses. The g
 
 3) CREATING INTERNET GATEWAY : aws ec2 attach-internet-gateway --vpc-id <vpcId>--internet-gateway-id <InternetGatewayId>
 
-4) VIEWING THE ROUTE TABLES AND SUBNETS : aws ec2 describe-route-tables --route-table-id <RouteTableId>
+4) VIEWING THE ROUTE TABLES AND SUBNETS : 
+                                                                                             aws ec2 describe-route-tables --route-table-id <RouteTableId>
 
                                                                                              aws ec2 describe-subnets --filters "Name=vpc-id,Values=<vpcId>" --query
 
                                                                                              "Subnets[\*].{ID:SubnetId,CIDR:CidrBlock}"
 
-5) ASSOCIATING ROUTE TABLE AND MAPPING : aws ec2 associate-route-table --subnet-id <SubnetId> 
+5) ASSOCIATING ROUTE TABLE AND MAPPING :
+                                                                                            aws ec2 associate-route-table --subnet-id <SubnetId> 
                                                                                   
                                                                                            --route-table-id <RouteTableId>
 
@@ -31,7 +33,8 @@ given explanatory variables that cover many aspects of residential houses. The g
 
                                                                                             --map-public-ip-on-launch
 
-6)CREATING KEY PAIR AND SECURITY GROUPS: aws ec2 create-key-pair --key-name AWS-Keypair --query "KeyMaterial" --output text > "C:\AWS\AWS\_Keypair.pem"
+6)CREATING KEY PAIR AND SECURITY GROUPS: 
+                                                                                            aws ec2 create-key-pair --key-name AWS-Keypair --query "KeyMaterial" --output text > "C:\AWS\AWS\_Keypair.pem"
 
                                                                                             aws ec2 create-security-group --group-name <security-group-name> --description "<description>" --vpc-id <vpcId>
 
