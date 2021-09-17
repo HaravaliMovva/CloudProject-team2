@@ -4,12 +4,12 @@
 
   **Submitted by:Movva  Sri Sai Haravali,Gourav Meenia,Siddharth,Tanya Mishra,Ambika Sharma,Yashvi Malhan**
 
-                        **Introduction**
+   **Introduction**
 
 Housing prices are an important reflection of the economy. Housing price ranges are of great interest for both buyers and sellers. In this project, house prices will be predicted 
 given explanatory variables that cover many aspects of residential houses. The goal of this project is to visualize the given numerical data using EDA techniques with python.
 
-                         ** Launching an EC2 instance using AWS CLI:**
+    ** Launching an EC2 instance using AWS CLI:**
 
 1) CREATING A VPC : aws ec2 create-vpc --cidr-block 10.0.0.0/16
 
@@ -44,7 +44,7 @@ given explanatory variables that cover many aspects of residential houses. The g
 
 8)VIEWING THE INSTANCE : aws ec2 describe-instances --instance-id <InstanceId>
 
-                                                               **Methodology**
+   **Methodology**
 
 TOOLS USED:
 
@@ -64,7 +64,7 @@ TOOLS USED:
 
 ● Git Bash
 
-                                                        **GIT Commands **
+ **GIT Commands **
 
 GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code
 management functionality of Git, plus its own features.
@@ -93,7 +93,7 @@ management functionality of Git, plus its own features.
 
 \3) git pull
 
-                                                    **EDA with python(Visualisation) **
+ **EDA with python(Visualisation) **
 
 In this we will load Bangalore home prices data into pandas dataframe and then handle NA values. We will then remove some unnecessary features and also normalize
 property size. We will convert the range of property size (such as 2100-3250) into an average of min and max, We will then visualize the data.
@@ -123,7 +123,7 @@ h) FINDING BEST MODEL :      (i)Using GRID SEARCH CV : from sklearn.model_select
  -->  Linear Regression gives the best score among Linear Regression,Lasso and decision tree classifier
 
 
-                                                   **Summary**
+  **Summary**
 
 We have created an EC2 instance through the aws cli. We have written the source code for the data visualization with respect to pricing of houses in
 Bengaluru. We have cloned the repository, downloaded the required dataset ( Bangalore House Dataset ). We have then executed the
