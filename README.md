@@ -76,7 +76,7 @@ TOOLS USED:
 
 ● Git Bash
 
-   **GIT Commands **
+     **GIT Commands **
 
 GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code
 management functionality of Git, plus its own features.
@@ -105,7 +105,7 @@ management functionality of Git, plus its own features.
 
 \3) git pull
 
-   **EDA with python(Visualisation) **
+     **EDA with python(Visualisation) **
 
 In this we will load Bangalore home prices data into pandas dataframe and then handle NA values. We will then remove some unnecessary features and also normalize
 property size. We will convert the range of property size (such as 2100-3250) into an average of min and max, We will then visualize the data.
